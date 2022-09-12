@@ -1,16 +1,16 @@
 #include <stdio.h>
+
 /**
- * main - alphabet in lowercase, followed by a new line.
+ * main - start of program
  *
- * Always return(0)
+ * Return: nothing if successful
  */
 int main(void)
 {
-	char ch = 'a';
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		putchar(ch);
-	}
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
 	putchar('\n');
 	return (0);
 }
