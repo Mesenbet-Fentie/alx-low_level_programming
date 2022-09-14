@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "stdio.h"
 /**
  * main - starts the program
  *
@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	char string[] = "Holberton";
+	char string[] = "_putchar";
 	int ind = 0;
 
 		while (string[ind])
-			if (ind <= 9)
+			if (ind <= 8)
 			{
 				_putchar(string[ind]);
 				ind++;
