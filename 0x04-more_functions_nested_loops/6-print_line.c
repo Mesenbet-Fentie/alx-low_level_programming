@@ -4,7 +4,7 @@
  * print_line - draws a straight line in the terminal
  * @n: The number of times _ is printed
  *
- * Return: nothing 
+ * Return: nothing
  */
 void print_line(int n)
 {
