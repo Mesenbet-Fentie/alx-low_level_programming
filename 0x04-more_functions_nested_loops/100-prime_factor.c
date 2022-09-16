@@ -4,7 +4,7 @@
 /**
  * main - Prints the maximum prime factor of number
  *
- * Return: nothing
+ * Return: 0
  */
 int main(void)
 {
@@ -30,4 +30,5 @@ int main(void)
 		oddPrime += 2;
 	}
 	printf("%d\n", maxPrime);
+	return (0);
 }
