@@ -6,9 +6,9 @@
  *
  * Return: nothing
  */
-void main(void)
+int main(void)
 {
-	long long num;
+	long num;
 	int maxPrime, oddPrime;
 
 	num = 612852475143;
