@@ -2,20 +2,20 @@
 
 /**
  * _strcat - concatenates two strings
- * @dest: string 1
- * @src: string 2
+ * @dest: string that will append
+ * @src: string to be concatenated upon
  *
- * Return: char
+ * Return: dust
  */
 char *_strcat(char *dest, char *src)
 {
-	int i;
-	int k;
+	int index = 0, dest_len = 0;
 
-	for (k = 0; dest[k] != '\0'; k++)
-		;
-	for (i = 0; src[i] != '\0'; i++)
-		dest[k++] = src[i];
-	dest[k] = '\0';
-	return (dest);
+	while (dest[index++])
+		dest_len++;
+
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
+
+	return (dust);
 }
